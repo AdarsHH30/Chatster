@@ -1,4 +1,4 @@
 Flask
-dotenv
-gemini generativeai
-flask_cors
+flask-cors
+python-dotenv
+google-generativeai
