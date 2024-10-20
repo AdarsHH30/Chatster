@@ -45,7 +45,15 @@
             border-radius: 50%;
             margin-right: 10px;
         }
-
+        .blink_me {
+            animation: blinker 2s linear infinite;
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+            border: 1px solid green;
+            background-color: green;
+            border-radius: 100%;
+        }
         .chat-box {
             flex: 1;
             padding: 10px;
@@ -80,6 +88,15 @@
             padding: 10px;
             background-color: #1a1a1a;
         }
+        .blink_me {
+            animation: blinker 2s linear infinite;
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+            border: 1px solid green;
+            background-color: green;
+            border-radius: 100%;
+        }
 
         .chat-input input {
             flex: 1;
@@ -105,9 +122,10 @@
 <body>
     <div class="chat-container">
         <div class="chat-header">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1cbC9Ui4kPER14FlcdZZK4QIvp9JDiy1giQ&s" alt="Avatar">
+            <img src="https://assetsio.gnwcdn.com/among_us_nowa_mapa.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp" alt="Avatar">
             <div>
-                <h2>Agnaa</h2>
+                <h2>AGNAA</h2>
+                <span class="blink_me"></span>
                 <small>Online</small>
             </div>
         </div>
