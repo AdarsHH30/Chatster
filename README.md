@@ -29,9 +29,6 @@ After setting up the project, you'll need to create a `.env` file to store your 
    
 4. Open your browser and navigate to `http://127.0.0.1:5000`(or you can directly run your index.html) to start interacting with the chatbot!
 
-## Contributing
-Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
-
 
 ---
 
