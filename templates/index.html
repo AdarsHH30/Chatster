@@ -152,7 +152,18 @@
             border-bottom-left-radius: 4px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
-
+        .bot-fmessage{
+            max-width: 80%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 18px;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            background: linear-gradient(45deg, #232526, #414345);
+            color: #ffffff;
+            border-bottom-left-radius: 4px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
         .chat-input {
             display: flex;
             padding: 20px;
@@ -216,7 +227,11 @@
             </div>
         </div>
 
-        <div class="chat-box" id="chat-box"></div>
+        <div class="chat-box" id="chat-box">
+            <div class = "bot-fmessage">
+                Hi there, How can i help you?
+            </div>
+        </div>
 
         <div class="chat-input">
             <input type="text" id="user-input" placeholder="Type your message..." name="message">
