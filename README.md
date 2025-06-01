@@ -2,7 +2,7 @@
 # Chatster
 
 ## Description
-Gemini Chatbot is a conversational AI application built using the Gemini API. The backend is powered by Flask, while the frontend is designed with HTML, CSS, and JavaScript, providing an interactive and user-friendly experience.
+Chatster is a conversational AI application built using the Gemini API. The backend is powered by Flask, while the frontend is designed with HTML, CSS, and JavaScript, providing an interactive and user-friendly experience.
 
 ## Installation Instructions
 To get started with the Gemini Chatbot, follow these steps:
